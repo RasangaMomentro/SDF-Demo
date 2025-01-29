@@ -97,13 +97,10 @@ def run_flow(message: str,
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
+
 # Header with Sarvodaya styling and logo
-st.markdown("""
-    <div style='text-align: center; margin-bottom: 2rem;'>
-        <img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd32nRWatBvZgAUHJiuxb7huLjgbByA0dmpdQ4ZnUVgJso3Clb7huLjjCzENuY6YcjCHYVUxj5P4nvYxmOhMzzoWBzln7TuYgaIc2u8z9VLZr_0OmNKrcW0DZC6izsTwNobaNA/s1600/Logo.png' 
-        style='width: 300px; margin-bottom: 1rem;'>
-    </div>
-""", unsafe_allow_html=True)
+st.image("logo.png", width=300)
+st.title("Sarvodaya Finance Virtual Assistant")
 
 st.title("Sarvodaya Development Finance Investor Relations Assistant")
 st.markdown("""
