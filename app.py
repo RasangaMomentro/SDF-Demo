@@ -105,11 +105,11 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-st.title("Sarvodaya Finance Virtual Assistant")
+st.title("Sarvodaya Development Finance Investor Relations Assistant")
 st.markdown("""
     <div style='background-color: #f8f9fa; padding: 1rem; border-radius: 0.5rem; margin-bottom: 2rem;'>
-        Welcome to Sarvodaya Finance's AI Assistant. I'm here to help you with information about our financial services, 
-        products, and company information.
+        Welcome to Sarvodaya Development Finance's AI Powered Investor Relations Assistant. I'm here to help you with information about our financial and business performance. 
+           
     </div>
 """, unsafe_allow_html=True)
 
