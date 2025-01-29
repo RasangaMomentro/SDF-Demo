@@ -61,6 +61,10 @@ st.markdown("""
         background-color: #e8f0ff;
         border-left: 5px solid #1e4999;
     }
+    div.stImage {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
     </style>
 """, unsafe_allow_html=True)
 
@@ -97,16 +101,13 @@ def run_flow(message: str,
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-
 # Header with Sarvodaya styling and logo
 st.image("logo.png", width=300)
 st.title("Sarvodaya Finance Virtual Assistant")
-
-st.title("Sarvodaya Development Finance Investor Relations Assistant")
 st.markdown("""
     <div style='background-color: #f8f9fa; padding: 1rem; border-radius: 0.5rem; margin-bottom: 2rem;'>
-        Welcome to Sarvodaya Development Finance's AI Powered Investor Relations Assistant. I'm here to help you with information about our financial and business performance. 
-           
+        Welcome to Sarvodaya Development Finance's AI-Powered Investor Relations Assistant. I'm here to help you with information about our financial & business performance. 
+        
     </div>
 """, unsafe_allow_html=True)
 
